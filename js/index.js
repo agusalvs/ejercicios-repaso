@@ -243,23 +243,10 @@
 // const amigo = [“Ryan”, “Kieran”, “Mark”, “Miguel”]
 // El resultado esperado es [“Ryan”, “Mark”]
 
-// const amigo = ['Ryan', 'Kieran', 'Mark', 'Miguel']
+const amigo = ['Ryan', 'Kieran', 'Mark', 'Miguel']
 
-// const filtrarAmigos = (arr) => {
-//     const amix = []
-//     for (let i = 0; i < arr.length; i++) {
-//         let word = arr[i]
-//         if (word.length === 4) {
-//             amix.push(" " + arr[i])
-//         }
-//     }
-//     if (amix.length > 0) {
-//         console.log("Tus amigos son:" + amix)
-//     } else {
-//         console.log("No tenés amigos");
-//     }
-// }
-// filtrarAmigos(amigo)
+const result = amigo.filter(amigo => amigo.length === 4);
+console.log(result)
 
 // EJERCICIO 2: Corrigeme la frase.
 // Tenemos un arreglo llamado frases con varias sentencias al azar. Usá la función map() para
